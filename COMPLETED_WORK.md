@@ -184,3 +184,24 @@ cast --to-base hex_число dec
 ```bash
 forge script script/deploySimpleStorage.s.sol --rpc-url $SEPOLIA_RPC_URL --keystore $ETH_SEPOLIA_KEYSTORE --broadcast
 ```
+
+
+
+# FOUNDRY ZKsynk
+
+## Скачал и Установил Foundry ZKsynk:
+
+1. Скачал из официальной документации : "https://foundry-book.zksync.io/introduction/installation/" 
+```bash
+curl -L https://raw.githubusercontent.com/matter-labs/foundry-zksync/main/install-foundry-zksync | bash
+```
+
+2. Установил Foundry ZKsync
+```bash
+foundryup-zksync
+```
+
+3. Вернулся обратно к ванильной версии Foundry
+```bash
+founryup
+```
